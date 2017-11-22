@@ -19,6 +19,14 @@ public class Atributes {
 
 	static HashMap<String, String> atributeTypes;
 	private HashMap<String, String> atributes;
+	public HashMap<String, String> getAtributes() {
+		return atributes;
+	}
+
+	public void setAtributes(HashMap<String, String> atributes) {
+		this.atributes = atributes;
+	}
+
 	private File fileFromLoad;
 	private String name;
 
@@ -55,6 +63,7 @@ public class Atributes {
 			e.printStackTrace();
 		}
 	}
+	
 	
 	
 	
